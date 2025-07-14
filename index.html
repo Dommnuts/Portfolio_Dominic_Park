@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="global.css" type="text/css"/>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="src/css/global.css" type="text/css"/>
+    <link rel="stylesheet" href="src/css/style.css" type="text/css"/>
   </head>
-  <body class="light-mode"  id="top">>
-      <div class="header">
+  <body class="light-mode"  id="top">
+      <div id="header">
         <div class="logo">
-          <a id="topBtn" href="#top"><h2>Front page</h2></a>
+          <a id="topBtn" href="#top"><h2 id="hover">Front page</h2></a>
         </div>
         
         <button id="Dark-Mode" onclick="toggleMode()">
@@ -37,7 +37,7 @@
 
 
     <div class="hero" id="about">
-      <h2>About Me</h2>
+      <h2 >About Me</h2>
     </div> 
 
     <div class="hero" id="info">
@@ -343,9 +343,20 @@
 <br><br>
       <label for="creditcardinfo">Would you like to put your credit card information</label><input type="checkbox" id="creditcardinfo" name="creditcardinfo" value="creditcardinfo">
       <br><br>
+      <label for="Credit" id="credit_card">Put numbers here</label>
+
+      <input type="text" id="Credit" name="Credit" placeholder="Type here...">
+      <br><br>
+
 
        <label for="moneyinfo">What is your money info
-       </label><input type="checkbox" id="moneyinfo" name="moneyinfo" value="moneyinfo">
+       </label>
+      <input type="checkbox" id="moneyinfo" name="moneyinfo" value="moneyinfo">
+      
+      <br><br>
+      <label for="Money" id="Money">Put numbers here</label>
+
+      <input type="text" id="money_info" name="money_info" placeholder="Type here...">
       <br><br>
       <input type="submit" value="Submit">
     </form>
