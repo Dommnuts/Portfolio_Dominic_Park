@@ -1,3 +1,4 @@
+
 .light-mode {
     --bgColor: #f5f2fd;
 
@@ -7,19 +8,20 @@
 
     --bordercolor: #d0d0d2;
 
-   --formcolor:#000000
+   --formcolor:#000000;
 
+  --varcolor: #878787;
 }
 input::placeholder{
     color: var(--formcolor);
     opacity: 100;
 
-    
+
 }
 .formtext{
     color: var(--textColor);
 
-    
+
 }
 
 input{
@@ -35,7 +37,9 @@ input{
 
     --bordercolor: #c2c2c2;
 
-    --formcolor:#000000
+    --formcolor:#000000;
+
+    --varcolor: rgb(110, 110, 110, 0.3);
 }
 
 html {
@@ -45,26 +49,26 @@ select{
     color: var(--formcolor);
 
 
-    
+
 }
 label {
     color: var(--textColor);
 
 
 
-    
+
 }
 option{
     color: var(--formcolor);
 
 
-    
+
 }
 #creditcardinfo{
     margin-top:20px;
 
 
-    
+
 }
 #labelforwalmartshoppingcart{
     margin-left: 350px;
@@ -77,9 +81,9 @@ input[type=radio]{
 }
 
 input{
-    
-    color: var(formcolor);
- 
+
+    color: var(--formcolor);
+
 }
 body {
 
@@ -95,7 +99,7 @@ body {
 #lastname{
     margin-left: 6px;
 
-    
+
 }
 
 
@@ -109,7 +113,7 @@ body {
     padding-right: 1050px;
     color: var(--textColor);
 
-   
+
 }
 #about{
     margin-top: 30em;
@@ -140,9 +144,9 @@ a:hover {
 
 }
 
-.header {
-    border-color: var(--bordercolor);
-    box-shadow: 0px 2px 10px #949494;
+#header {
+    
+    box-shadow: 0px 2px 10px var(--varcolor);
 
 
 
@@ -163,10 +167,16 @@ a:hover::after {
     width: 100%;
 }
 
-.header ul li a:hover {
+#header ul li a:hover {
     color: var(--texthover);
 }
-
+#hover:hover {
+    color: var(--texthover);
+    
+}
+#hover{
+    transition: all 0.3s ease;
+}
 a {
     color: var(--textColor);
 
@@ -261,5 +271,23 @@ form{
     margin-left:50px;
 
 
+
+}
+#credit_card{
+    display: none;
+
+
     
+}
+#Credit{
+    display: none;
+
+
+    
+}
+#money_info{
+    display: none;
+}
+#Money{
+    display: none;
 }
