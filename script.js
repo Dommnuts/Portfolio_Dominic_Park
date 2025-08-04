@@ -1,3 +1,7 @@
+const Light_button = document.getElementById("Light-Mode");
+Light_button.style.display = "none";
+
+``
 function toggleMode() {
     const body = document.body;
 
