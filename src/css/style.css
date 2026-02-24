@@ -291,9 +291,10 @@ form{
 #Money{
     display: none;
 }
+
 #ssProxy{
     width:97%;
-    border:2px #fff solid;
+    border:2px solid;
     border-radius:20px;
     
     
