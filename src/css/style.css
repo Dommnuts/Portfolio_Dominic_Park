@@ -8,9 +8,9 @@
 
     --bordercolor: #d0d0d2;
 
-   --formcolor:#000000;
+    --formcolor:#000000;
 
-  --varcolor: #878787;
+    --varcolor: #878787;
 
     --ssColor: #0000;
 }
@@ -43,7 +43,7 @@ input{
 
     --varcolor: rgb(110, 110, 110, 0.3);
 
-    --ssColor:  #ffff ;
+    --ssColor: #ffff;
 }
 
 html {
