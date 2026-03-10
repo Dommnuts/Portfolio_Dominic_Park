@@ -11,6 +11,8 @@
    --formcolor:#000000;
 
   --varcolor: #878787;
+
+    --ssColor: #0000;
 }
 input::placeholder{
     color: var(--formcolor);
@@ -40,6 +42,8 @@ input{
     --formcolor:#000000;
 
     --varcolor: rgb(110, 110, 110, 0.3);
+
+    --ssColor:  #ffff ;
 }
 
 html {
@@ -294,7 +298,8 @@ form{
 
 #ssProxy{
     width:97%;
-    border:2px solid;
+    
+    border:2px solid var(--ssColor);
     border-radius:20px;
     
     
