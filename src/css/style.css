@@ -298,8 +298,10 @@ form{
 
 #ssProxy{
     width:97%;
-    
-    border:90px solid var(--ssColor);
+    border-style: solid;
+    border-width: 3px; 
+    border-color: var(--ssColor);
+
     border-radius:20px;
     
     
