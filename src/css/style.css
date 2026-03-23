@@ -12,7 +12,7 @@
 
     --varcolor: #878787;
 
-    --ssColor: #0000;
+    --ssColor: black;
 }
 input::placeholder{
     color: var(--formcolor);
