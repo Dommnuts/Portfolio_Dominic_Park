@@ -308,7 +308,8 @@ form{
 }
 #ssP{
     color:var(--ssColor);
-
+    position:absolute;
+    right:30px;
 
 
     
