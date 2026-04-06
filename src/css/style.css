@@ -315,3 +315,9 @@ form{
 
     
 }
+
+.TextContainer{
+    display:flex;
+    flex-direction: row;
+
+}
