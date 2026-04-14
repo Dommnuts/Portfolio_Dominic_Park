@@ -20,11 +20,11 @@ function toggleMode() {
 
 }
     document.getElementById("ssProxyButton").addEventListener("onclick", function(){
-window.location.href = "https://dommnuts.github.io/site-/"
+window.location.href = "https://dommnuts.github.io/site-/";
 
 
         
-    }
+    )}
                                                              
 
 function topfunction(val) {
