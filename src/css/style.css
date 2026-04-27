@@ -306,13 +306,13 @@ form{
     padding:0px;
     margin:0px;
     border-radius:20px;
-    
+    opacity: 100%;
     
 }
 #ssProxyButton:hover{
     opacity: 50%;
 
-
+    transition: opacity 0.25s ease-out;
 
 
 
