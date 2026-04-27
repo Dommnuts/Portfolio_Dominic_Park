@@ -309,6 +309,17 @@ form{
     
     
 }
+#ssProxyButton:hover{
+    opacity: 50%;
+
+
+
+
+
+    
+}
+    
+
 #ssProxy {
     width: 95%;
     height: 95%;
