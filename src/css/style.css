@@ -306,23 +306,30 @@ form{
     padding:0px;
     margin:0px;
     border-radius:20px;
-    opacity: 100%;
+    
     
 }
 #ssProxyButton:hover{
-    opacity: 50%;
+    background-color:#78c775 ;
 
-    transition: opacity 0.25s ease-out;
+    
 
 
 
     
 }
+#ssProxy:hover{
+    opacity: 50%;
+    transition: opacity 0.25s ease-out;
+}
+    
+
     
 
 #ssProxy {
     width: 95%;
     height: 95%;
+    opacity: 100%;
 }
 #ssP{
    color: var(--ssColor);
